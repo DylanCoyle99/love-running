@@ -35,7 +35,8 @@ h2 {
     float: right;
 }
 
-#menu, #logo{
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -45,32 +46,33 @@ h2 {
     margin-right: 30px;
 }
 
-#menu a{
+#menu a {
     text-decoration: none;
     color: inherit;
 }
 
-#menu a:hover{
+#menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
 
-.active{
+.active {
     border-bottom: 1px solid #3a3a3a;
 }
 
 /*hero image*/
-#hero-outer{
+#hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
-#cover-text,#cover-text h2{
-    color:#fff;
+#cover-text,
+#cover-text h2 {
+    color: #fff;
 }
 
-#hero-image{
+#hero-image {
     height: 600px;
     width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center;
@@ -79,19 +81,21 @@ h2 {
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
+
 /*creates level of zoom*/
-@keyframes hero-zoom{
-    from{
+@keyframes hero-zoom {
+    from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.1);
     }
 }
 
-#cover-text{
+#cover-text {
     font-size: 130%;
-    font-family: Oswald,sans-serif;
+    font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
 
@@ -109,22 +113,20 @@ h2 {
 }
 
 /*club ethos*/
-#club-ethos{
+#club-ethos {
     height: 600px;
 }
 
-#left-about{
+#left-about {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: silver;
 }
 
 #center-about {
@@ -132,4 +134,34 @@ h2 {
     width: 33%;
     margin: 0 auto;
     background-color: green;
+}
+
+hr {
+    border-top:1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2{
+    text-align: right;
+}
+
+.right-about-heading p{
+    text-align: right;
 }
